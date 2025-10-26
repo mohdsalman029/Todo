@@ -1,0 +1,32 @@
+.InputFields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  all: unset;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  height: 40px;
+  width: 500px;
+  padding-left: 5px;
+}
+
+.button {
+  all: unset;
+  border: 2px solid black;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: #c2a68c;
+  cursor: pointer;
+  transition: all 5ms ease-in-out;
+  scale: 1.1;
+}

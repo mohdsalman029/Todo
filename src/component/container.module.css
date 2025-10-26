@@ -1,0 +1,33 @@
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayContainer {
+  width: 100%;
+  height: calc(100% - 100px); /* keeps fixed height inside parent */
+  background-color: #c2a68c;
+  display: flex;
+  flex-direction: column; /* stack tasks vertically */
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  overflow-y: auto; /* ✅ enables scroll when content overflows */
+  overflow-x: hidden; /* hides any horizontal scroll */
+  scrollbar-width: auto; /* for Firefox */
+}
+
+.InputFieldsContainer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6d8c3;
+
+  /* border: 1px solid rgb(154, 146, 146); */
+}
