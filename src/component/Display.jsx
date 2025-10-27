@@ -5,7 +5,7 @@ export const Display = ({ tasks, remove }) => {
     <div>
       <ul className={style.gap}>
         {tasks
-          .filter((task) => task.trim() !== "") // ✅ skip empty tasks
+          .filter((task) => task.trim() !== "") // ✅ skip empty tasks 
           .map((task, index) => (
             <li key={index} className={style.screen}>
               <span className={style.display}>{task}</span>
