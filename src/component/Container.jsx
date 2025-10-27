@@ -9,7 +9,7 @@ export const Container = () => {
   const handlremove = (index) => {
     setTasks(tasks.filter((_, i) => i !== index));
   };
-// here this is comment
+
   const addTask = (newTask) => {
     setTasks([...tasks, newTask]);
   };
