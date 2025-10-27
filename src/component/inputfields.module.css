@@ -16,6 +16,7 @@
 
 .button {
   all: unset;
+  font-weight: 600;
   border: 2px solid black;
   height: 40px;
   width: 100px;
@@ -25,7 +26,7 @@
   align-items: center;
 }
 .button:hover {
-  background-color: #c2a68c;
+  background-color: #a5b68d;
   cursor: pointer;
   transition: all 5ms ease-in-out;
   scale: 1.1;

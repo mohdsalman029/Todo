@@ -10,7 +10,7 @@
 .displayContainer {
   width: 100%;
   height: calc(100% - 100px); /* keeps fixed height inside parent */
-  background-color: #c2a68c;
+  background-color: #a5b68d;
   display: flex;
   flex-direction: column; /* stack tasks vertically */
   justify-content: flex-start;
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6d8c3;
+  background-color: #c1cfa1;
 
   /* border: 1px solid rgb(154, 146, 146); */
 }
